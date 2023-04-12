@@ -38,7 +38,7 @@ public class LabArrayProcessor implements ArrayProcessor {
 
             }
         System.out.println();
-        System.out.println(calculate(array));
+
     }
 
     @Override
@@ -50,7 +50,7 @@ public class LabArrayProcessor implements ArrayProcessor {
             System.out.println();
 
     }
-        System.out.println(calculate(array));
+
     }
 }
 

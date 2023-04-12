@@ -35,7 +35,8 @@ public class Main {
                 case 2 ->{
                     System.out.println("2.");
                     sumArray = labDoubleArrayReader.readOneDimensionalArray("lab5.1.txt");
-                    labArrayProcessor.calculate(sumArray);;
+
+                    System.out.println(labArrayProcessor.calculate(sumArray));
                 }
                 case 3 ->{
                     System.out.println("3.");
@@ -49,7 +50,8 @@ public class Main {
                     File file = new File("lab5.2.txt");
 
                 sumArray2 = labDoubleArrayReader.readTwoDimensionalArray(file);
-                labArrayProcessor.processArray(sumArray2);
+
+                    System.out.println(labArrayProcessor.calculate(sumArray2));
                 }
                 case 5 -> System.out.println("Вихід з программи");
                 default -> System.out.println("Невірний выбір. Попробуйте ще раз.");
